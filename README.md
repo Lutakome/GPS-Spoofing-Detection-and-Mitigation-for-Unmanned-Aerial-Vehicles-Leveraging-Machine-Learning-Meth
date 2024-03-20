@@ -1,2 +1,6 @@
-# GPS-Spoofing-
-In the GPS spoofing notebook we classify GPS Spoofed signals for drones. 
+# **GPS-Spoofing**-
+The proliferation of commercial unmanned aerial vehicles (UAV's) has revolutionized industries like precision agriculture and disaster response. However, their significant reliance on global positioning system (GPS) for navigation exposes them to malicious GPS spoofing attacks. 
+
+GPS spoofing is an attempt to manipulate a GPS receiver by broadcasting manipulated signals. The results of a successful GPS spoofing attack can have extreme consequences with respect to the safety of the mission, equipment, payload, infrastructure and most importantly human lives. 
+
+Various methods have been introduced to detect GPS spoofing; however, most methods require expensive hardware. In this paper we propose machine learning algorithms to detect GPS spoofed signals. In comparison to other proposed algorithms, XGBOOST reveals its superiority in performance using precision, recall and F1-Score as benchmarks; with a precision of 85.41\%, recall of 86.91\% and F1-Score of 86.14\%. Other models, including random forest had a precision performance of 79.60\%, recall performance of 79.80\% and F1-Score of 79.70\%; decision tree classifier had a precision of 84.04\%, recall of 84.53\% and an F1-Score of 84.28\%; and logistic regression had a recall of 25.00\%, recall of 27.21\% and F1-Score of 21.93\%, exhibiting varying degrees of performance. Computational efficiency and scalability are emphasized, ensuring the framework's suitability for resource-constrained UAV deployments. 
