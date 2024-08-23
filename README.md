@@ -33,9 +33,11 @@ In order to collect data, all the system components must be able to communicate.
 # Hardware 
 
 # Software
-In order to achieve a successful GPS spoofing attack, it must be considered that the practical limitations of an attack which is essentially in the tracking phase, the counterfeit signals will not be acquired by the receiver without force reacquisition and inside a building. In order to configure the longitude and latitude, we use the command
-C:\Users\acer\Downloads\Project1>Project1.exe -b 8 -e brdc2140.23n -l 52.633079,-1,139386,88. The fake, structured GPS signals that the GPS spoofer sends out can be decoded by GPS receivers and used to carry out its operations. The HackRF and the GPS receiver need
-to be connected to the Windows computer before using the command C:\ProgramFiles\PothosSDR\bin>hackrf_transfer.exe -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 0 on the command line. The USB connectivity for the GPS receiver (COMM 9600) is read.
+In order to achieve a successful GPS spoofing attack, it must be considered that the practical limitations of an attack which is essentially in the tracking phase, the counterfeit signals will not be acquired by the receiver without force reacquisition and inside a building. In order to configure the longitude and latitude, we use the command;
+C:\Users\acer\Downloads\Project1>Project1.exe -b 8 -e brdc2140.23n -l 52.633079,-1,139386,88
+The fake, structured GPS signals that the GPS spoofer sends out can be decoded by GPS receivers and used to carry out its operations. The HackRF and the GPS receiver need to be connected to the Windows computer before using the command;
+C:\ProgramFiles\PothosSDR\bin>hackrf_transfer.exe -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 0 
+on the command line. The USB connectivity for the GPS receiver (COMM 9600) is read.
 C:\Users\acer\Downloads\Project1>Project1.exe -b 8 -e brdc2140.23n -l 52.633079,-1,139386,88
 
 C:\Program Files\PothosSDR\bin>hackrf_transfer.exe -t gpssim.bin -f 1575420000 -s2600000 -a 1 -x 0
