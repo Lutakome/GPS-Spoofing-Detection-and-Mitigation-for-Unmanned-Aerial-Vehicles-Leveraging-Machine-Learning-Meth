@@ -34,6 +34,7 @@ The system flow proposesa solution that is accomplished in four stages. In the f
 # Set up
 In order to collect data, all the system components must be able to communicate. Figure 4 is the proposed outlook before implementation. The GPS simulator must receive GPS signals from the GPS receiver and transmit the signals which are received to the satellite. The spoofer must receive and sieve out the mixed signals and hence generate them. Figure 22 is the outlook of the real-life implementation with all the system components in communication receiving data from the satellites.
 
+[Drone Spoofing.pdf](https://github.com/user-attachments/files/18137540/Drone.Spoofing.pdf)
 
 
 # Environment
