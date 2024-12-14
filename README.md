@@ -29,10 +29,10 @@ The system flow proposesa solution that is accomplished in four stages. In the f
 (iv). The authentic group can have an unrestricted number of observable GNSS satellites. Configurations for dataset parameters are adjusted as needed, with careful attention to GPS receiver compatibility and versions. Some signals may be removed if they cannot be received due to their location, potentially limiting the size of the authentic group.
 (v). Members of the authentic group are selected to provide the most consistent navigation solution with minimal variance. If a signal from the spoofing group shows weak associations with its peers in that group and offers a more stable navigation solution when swapped with a signal from the authentic group, an exchange is made. This process is illustrated in figure 3 with a flowchart.
 
-
+![Drawing3 (1)_page-0001](https://github.com/user-attachments/assets/ced2049f-00d0-4678-9297-0408a1a24376)
 
 # Set up
-In order to collect data, all the system components must be able to communicate. Figure 4 is the proposed outlook before implementation. The GPS simulator must receive GPS signals from the GPS receiver and transmit the signals which are received to the satellite. The spoofer must receive and sieve out the mixed signals and hence generate them. Figure 22 is the outlook of the real-life implementation with all the system components in communication receiving data from the satellites.
+In order to collect data, all the system components must be able to communicate. Figure 4 is the proposed outlook before implementation. The GPS simulator must receive GPS signals from the GPS receiver and transmit the signals which are received to the satellite. The spoofer must receive and sieve out the mixed signals and hence generate them. Figure 4 is the outlook of the real-life implementation with all the system components in communication receiving data from the satellites.
 
 
 
