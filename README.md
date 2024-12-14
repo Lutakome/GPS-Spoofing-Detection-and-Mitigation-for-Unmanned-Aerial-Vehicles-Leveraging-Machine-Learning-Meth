@@ -32,9 +32,15 @@ The system flow proposesa solution that is accomplished in four stages. In the f
 [Drawing3 (1).pdf](https://github.com/user-attachments/files/18137504/Drawing3.1.pdf)
 
 # Set up
-In order to collect data, all the system components must be able to communicate. Figure 21 is the proposed outlook before implementation. The GPS simulator must receive GPS signals from the GPS receiver and transmit the signals which are received to the satellite. The spoofer must receive and sieve out the mixed signals and hence generate them. Figure 22 is the outlook of the real-life implementation with all the system components in communication receiving data from the satellites.
+In order to collect data, all the system components must be able to communicate. Figure 4 is the proposed outlook before implementation. The GPS simulator must receive GPS signals from the GPS receiver and transmit the signals which are received to the satellite. The spoofer must receive and sieve out the mixed signals and hence generate them. Figure 22 is the outlook of the real-life implementation with all the system components in communication receiving data from the satellites.
+
+
 
 # Environment
+
+To improve the accuracy in detecting of real-time GPS spoofing signals of UAVs, this thesis proposes a solution that is accomplished in four stages. In the first phase taking note of the accurate GPS signals of the current location. The latitude and the longitude are set. This is achieved with the GPS receiver in communication with the windows GNSS/GPS simulator started. In the second stage GPS signals are collected with the GPS receiver in communication with other equipment both software and hardware (i.e. (i) the authentic signals have the GPS receiver that does affect the overall output of the signals from the satellites (ii) the spoofed signals have the HackRF with the GPS receiver mouse. In the third stage, the session of the collected GPS signals from the satellites are then stored in a file. In the fourth stage, the stored file is the pre-processed for analysis in Python. The design and implementation solution provided is a whole movement to track accurate real-time GPS spoofing detected signal. The subsequent subsections discuss the design and implementation of GPS spoofing detection algorithm based on machine learning. Figure 23 depicts GPS simulator configuration with parameters set.
+
+## GPS Simulator Configuration
 In order to achieve a successful GPS spoofing attack, it must be considered that the practical limitations of an attack which is essentially in the tracking phase, the counterfeit signals will not be acquired by the receiver without force reacquisition and inside a building.
 
 In order to configure the longitude and latitude, we use the command C:\Users\acer\Downloads\Project1>Project1.exe -b 8 -e brdc2140.23n -l 52.633079,- 1,139386,88. The fake, structured GPS signals that the GPS spoofer sends out can be decoded by GPS receivers and used to carry out its operations. The HackRF and the GPS receiver need to be connected to the Windows computer before using the command C:\Program Files\PothosSDR\bin>hackrf_transfer.exe -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 0 on the command line. The USB connectivity for the GPS receiver (COMM 9600) is read.
@@ -44,7 +50,7 @@ C:\Users\acer\Downloads\Project1>Project1.exe -b 8 -e brdc2140.23n -l 52.633079,
 
 C:\Program Files\PothosSDR\bin>hackrf_transfer.exe -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 0
 
-## GPS Simulator Configuration
+![GPS](https://github.com/user-attachments/assets/03c2a757-fe37-40eb-b9aa-65d30d2cdb22)
 
 # Hardware 
 
