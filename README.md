@@ -38,12 +38,12 @@ In order to collect data, all the system components must be able to communicate.
 
 # Environment
 
-To improve the accuracy in detecting of real-time GPS spoofing signals of UAVs, this thesis proposes a solution that is accomplished in four stages. In the first phase taking note of the accurate GPS signals of the current location. The latitude and the longitude are set. This is achieved with the GPS receiver in communication with the windows GNSS/GPS simulator started. In the second stage GPS signals are collected with the GPS receiver in communication with other equipment both software and hardware (i.e. (i) the authentic signals have the GPS receiver that does affect the overall output of the signals from the satellites (ii) the spoofed signals have the HackRF with the GPS receiver mouse. In the third stage, the session of the collected GPS signals from the satellites are then stored in a file. In the fourth stage, the stored file is the pre-processed for analysis in Python. The design and implementation solution provided is a whole movement to track accurate real-time GPS spoofing detected signal. The subsequent subsections discuss the design and implementation of GPS spoofing detection algorithm based on machine learning. Figure 23 depicts GPS simulator configuration with parameters set.
+To improve the accuracy in detecting of real-time GPS spoofing signals of UAVs, this thesis proposes a solution that is accomplished in four stages. In the first phase taking note of the accurate GPS signals of the current location. The latitude and the longitude are set. This is achieved with the GPS receiver in communication with the windows GNSS/GPS simulator started. In the second stage GPS signals are collected with the GPS receiver in communication with other equipment both software and hardware (i.e. (i) the authentic signals have the GPS receiver that does affect the overall output of the signals from the satellites (ii) the spoofed signals have the HackRF with the GPS receiver mouse. In the third stage, the session of the collected GPS signals from the satellites are then stored in a file. In the fourth stage, the stored file is the pre-processed for analysis in Python. The design and implementation solution provided is a whole movement to track accurate real-time GPS spoofing detected signal. The subsequent subsections discuss the design and implementation of GPS spoofing detection algorithm based on machine learning. Figure 5 depicts GPS simulator configuration with parameters set.
 
 
 ## GPS Simulator Configuration
 
-
+![GNSS](https://github.com/user-attachments/assets/f40f84c2-2765-418f-aa0c-10f1f7c0ba21)
 
 # Software
 In order to achieve a successful GPS spoofing attack, it must be considered that the practical limitations of an attack which is essentially in the tracking phase, the counterfeit signals will not be acquired by the receiver without force reacquisition and inside a building. In order to configure the longitude and latitude, we use the command;
@@ -59,7 +59,7 @@ C:\Program Files\PothosSDR\bin>hackrf_transfer.exe -t gpssim.bin -f 1575420000 -
 
 # Machine Learning Algorithm Selection Models
 Converting Signals
-After the data is collected there is need to process it through a GPS simulator. Both directed and delayed mixed signal generators are converted with IF Down conversion shown in figure 28. The aim for this process is to check if the so to be deployment machine learning model can classify the signals if mixed. The delayed signals are time stamp generated and the conversion is the change in distance.
+After the data is collected there is need to process it through a GPS simulator. Both directed and delayed mixed signal generators are converted with IF Down conversion. The aim for this process is to check if the so to be deployment machine learning model can classify the signals if mixed. The delayed signals are time stamp generated and the conversion is the change in distance.
 
 
 When the parameters are set, the machine learning algorithm has to be able to distinguish the signals. Signal and measurement processing begins which parameters are parsed onto for feature extraction. The machine learning algorithm should be the spoofing detector in the signals during the online phase. The spoofed signals are all generated with the HackRF which acts as a Software Defined Radio (SDR). During the offline phase, the machine learning algorithm must perform adjustments in weight specifications in order to train the model.
