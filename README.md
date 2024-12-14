@@ -9,9 +9,12 @@ Various methods have been introduced to detect GPS spoofing; however, most metho
 # Background and Motivation
 Unmanned aerial vehicles (UAVs), also known as drones, are used in a variety of fields of study, including the military, civil defence, border surveillance, traffic management,meteorology, firefighting, agriculture (to spread pesticides in crops), and people-finding, as shown in figure 1. A bird's eye perspective that can be used almost anywhere and at any time is now available to drone users. As a result, the market for UAVs has grown significantly, and it is predicted that it will reach USD 102.38 billion by 2030 (Unmanned Aerial Vehicle (UAV) Drones Market Size 2022-2030. 2022). Furthermore, technical improvements have made it possible to operate small drones with a smartphone rather than remote controllers.
 
+![Applications for Drones](https://github.com/user-attachments/assets/42c716d4-6818-4f94-bea7-aaa617924f00)
+
 
 # Significance of the Study
 As seen in figure 2, spoofing attack carries the greatestweight of all the cybersecurity. Once a spoofing attack is successful, the attacker is command, and the 3 data integrity is breeched. Commercial unmanned aerial vehicles are systems that are under order based on the application of the end user. Their usage is on the rise, but the security is still in question as most of the manufactures never take into consideration the privacy and protection settings.
+
 
 # Archictecture of the Attacks
 In order to navigate and control themselves accurately, unmanned aerial vehicles (UAVs) significantly rely on GPS signals. However, spoofing attacks, in which malicious actors trick UAVs with false GPS signals, can disrupt operations and grant unauthorised access to restricted airspace and pose a risk to safety. Commercial UAVs likewise rely on a centralised system, as shown in figures 3 and 4 respectively, making it simple for an attacker to shoot them down.
