@@ -29,14 +29,23 @@ The system flow proposesa solution that is accomplished in four stages. In the f
 (iv). The authentic group can have an unrestricted number of observable GNSS satellites. Configurations for dataset parameters are adjusted as needed, with careful attention to GPS receiver compatibility and versions. Some signals may be removed if they cannot be received due to their location, potentially limiting the size of the authentic group.
 (v). Members of the authentic group are selected to provide the most consistent navigation solution with minimal variance. If a signal from the spoofing group shows weak associations with its peers in that group and offers a more stable navigation solution when swapped with a signal from the authentic group, an exchange is made. This process is illustrated in figure 3 with a flowchart.
 
-
+[Drawing3 (1).pdf](https://github.com/user-attachments/files/18137504/Drawing3.1.pdf)
 
 # Set up
 In order to collect data, all the system components must be able to communicate. Figure 21 is the proposed outlook before implementation. The GPS simulator must receive GPS signals from the GPS receiver and transmit the signals which are received to the satellite. The spoofer must receive and sieve out the mixed signals and hence generate them. Figure 22 is the outlook of the real-life implementation with all the system components in communication receiving data from the satellites.
 
 # Environment
+In order to achieve a successful GPS spoofing attack, it must be considered that the practical limitations of an attack which is essentially in the tracking phase, the counterfeit signals will not be acquired by the receiver without force reacquisition and inside a building.
+
+In order to configure the longitude and latitude, we use the command C:\Users\acer\Downloads\Project1>Project1.exe -b 8 -e brdc2140.23n -l 52.633079,- 1,139386,88. The fake, structured GPS signals that the GPS spoofer sends out can be decoded by GPS receivers and used to carry out its operations. The HackRF and the GPS receiver need to be connected to the Windows computer before using the command C:\Program Files\PothosSDR\bin>hackrf_transfer.exe -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 0 on the command line. The USB connectivity for the GPS receiver (COMM 9600) is read.
+
+C:\Users\acer\Downloads\Project1>Project1.exe -b 8 -e brdc2140.23n -l 52.633079,- 1,139386,88
+
+
+C:\Program Files\PothosSDR\bin>hackrf_transfer.exe -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 0
 
 ## GPS Simulator Configuration
+
 # Hardware 
 
 # Software
