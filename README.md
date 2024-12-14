@@ -23,6 +23,7 @@ In order to navigate and control themselves accurately, unmanned aerial vehicles
 
 ![Centralized (1)_page-0001](https://github.com/user-attachments/assets/ed381379-4d95-46d5-a9b8-7af2a9f4344c)
 
+![CENTR](https://github.com/user-attachments/assets/9e189064-cb56-4249-85fa-c6fb9c9cafd0)
 
 
 
