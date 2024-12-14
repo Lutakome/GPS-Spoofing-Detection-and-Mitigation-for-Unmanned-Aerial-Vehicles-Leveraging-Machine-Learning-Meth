@@ -15,10 +15,14 @@ Unmanned aerial vehicles (UAVs), also known as drones, are used in a variety of 
 # Significance of the Study
 As seen in figure 2, spoofing attack carries the greatestweight of all the cybersecurity. Once a spoofing attack is successful, the attacker is command, and the 3 data integrity is breeched. Commercial unmanned aerial vehicles are systems that are under order based on the application of the end user. Their usage is on the rise, but the security is still in question as most of the manufactures never take into consideration the privacy and protection settings.
 
-![Centralized (1)_page-0001](https://github.com/user-attachments/assets/ed381379-4d95-46d5-a9b8-7af2a9f4344c)
+
 
 # Archictecture of the Attacks
 In order to navigate and control themselves accurately, unmanned aerial vehicles (UAVs) significantly rely on GPS signals. However, spoofing attacks, in which malicious actors trick UAVs with false GPS signals, can disrupt operations and grant unauthorised access to restricted airspace and pose a risk to safety. Commercial UAVs likewise rely on a centralised system, as shown in figures 3 and 4 respectively, making it simple for an attacker to shoot them down.
+
+![Centralized (1)_page-0001](https://github.com/user-attachments/assets/ed381379-4d95-46d5-a9b8-7af2a9f4344c)
+
+
 
 # System Flow Diagram
 The system flow proposesa solution that is accomplished in four stages. In the first phase taking note of the accurate GPS signals of the current location. The latitude and the longitude are set. This is achieved with the GPS receiver in communication with the windows GNSS/GPS simulator started. In the second stage GPS signals are collected with the GPS receiver in communication with other equipments both software and hardware (i.e. (i) the authentic signals have the GPS receiver that does affect the overall output of the signals from the satellites (ii) the spoofed signals have the Hack RF with the GPS receiver mouse. In the third stage, the session of the collected GPS signals from the satellites are then stored in a file. In the fourth stage, the stored file is the pre-processed for analysis in Python. The design and implementation solution provided is a whole movement to track accurate real-time GPS spoofing detected signal. The subsequent subsections discuss the design and implementation of GPS spoofing detection algorithm based on machine learning.
