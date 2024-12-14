@@ -25,6 +25,7 @@ In order to navigate and control themselves accurately, unmanned aerial vehicles
 
 
 
+
 # System Flow Diagram
 The system flow proposesa solution that is accomplished in four stages. In the first phase taking note of the accurate GPS signals of the current location. The latitude and the longitude are set. This is achieved with the GPS receiver in communication with the windows GNSS/GPS simulator started. In the second stage GPS signals are collected with the GPS receiver in communication with other equipments both software and hardware (i.e. (i) the authentic signals have the GPS receiver that does affect the overall output of the signals from the satellites (ii) the spoofed signals have the Hack RF with the GPS receiver mouse. In the third stage, the session of the collected GPS signals from the satellites are then stored in a file. In the fourth stage, the stored file is the pre-processed for analysis in Python. The design and implementation solution provided is a whole movement to track accurate real-time GPS spoofing detected signal. The subsequent subsections discuss the design and implementation of GPS spoofing detection algorithm based on machine learning.
 
