@@ -15,7 +15,7 @@ Unmanned aerial vehicles (UAVs), also known as drones, are used in a variety of 
 # Significance of the Study
 As seen in figure 2, spoofing attack carries the greatestweight of all the cybersecurity. Once a spoofing attack is successful, the attacker is command, and the 3 data integrity is breeched. Commercial unmanned aerial vehicles are systems that are under order based on the application of the end user. Their usage is on the rise, but the security is still in question as most of the manufactures never take into consideration the privacy and protection settings.
 
-
+![Centralized (1)_page-0001](https://github.com/user-attachments/assets/ed381379-4d95-46d5-a9b8-7af2a9f4344c)
 
 # Archictecture of the Attacks
 In order to navigate and control themselves accurately, unmanned aerial vehicles (UAVs) significantly rely on GPS signals. However, spoofing attacks, in which malicious actors trick UAVs with false GPS signals, can disrupt operations and grant unauthorised access to restricted airspace and pose a risk to safety. Commercial UAVs likewise rely on a centralised system, as shown in figures 3 and 4 respectively, making it simple for an attacker to shoot them down.
