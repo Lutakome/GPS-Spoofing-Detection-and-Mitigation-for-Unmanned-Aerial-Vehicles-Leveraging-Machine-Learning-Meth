@@ -40,6 +40,7 @@ In order to collect data, all the system components must be able to communicate.
 
 To improve the accuracy in detecting of real-time GPS spoofing signals of UAVs, this thesis proposes a solution that is accomplished in four stages. In the first phase taking note of the accurate GPS signals of the current location. The latitude and the longitude are set. This is achieved with the GPS receiver in communication with the windows GNSS/GPS simulator started. In the second stage GPS signals are collected with the GPS receiver in communication with other equipment both software and hardware (i.e. (i) the authentic signals have the GPS receiver that does affect the overall output of the signals from the satellites (ii) the spoofed signals have the HackRF with the GPS receiver mouse. In the third stage, the session of the collected GPS signals from the satellites are then stored in a file. In the fourth stage, the stored file is the pre-processed for analysis in Python. The design and implementation solution provided is a whole movement to track accurate real-time GPS spoofing detected signal. The subsequent subsections discuss the design and implementation of GPS spoofing detection algorithm based on machine learning. Figure 5 depicts GPS simulator configuration with parameters set.
 
+![Drawing2 (1)_page-0001](https://github.com/user-attachments/assets/6e78077e-e961-495d-9ba7-c764bf7037bf)
 
 ## GPS Simulator Configuration
 
